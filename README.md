@@ -9,4 +9,6 @@ Sharkify GUI main repo, for more info check out the old repo: https://github.com
 
 
 
-- loadstring(game:HttpGet("https://raw.githubusercontent.com/sharkifyy/sharkify-main/main/ScriptLoader", true))() is the script.
+- loadstring(game:HttpGet("https://raw.githubusercontent.com/sharkifyy/sharkify-main/main/ScriptLoader", true))() 
+
+-- is the script.
