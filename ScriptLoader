@@ -21,7 +21,7 @@ local LocalPlayer = game.Players.LocalPlayer
 
 
 local Window = Rayfield:CreateWindow({
-    Name = "SharkifyV3 ` 2.3",
+    Name = "Sharkify",
     LoadingTitle = "Rayfield Interface Suite",
     LoadingSubtitle = "by Sirius",
     ConfigurationSaving = {
