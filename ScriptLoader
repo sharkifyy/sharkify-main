@@ -1381,7 +1381,8 @@ local Section = Tab:CreateSection("guis")
 local Button = Tab:CreateButton({
     Name = "swimhub good aimlock! and universal)",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/SwimPaste/swimhack/369f150459a7ea7d0a5de7a5af3358c77c2c1d5f/swimhub.lua", true))()
+        loadstring(game:HttpGet("https://pastebin.com/raw/7TLpxY2P"))() 
+
     end,
  })
 
