@@ -50,7 +50,7 @@ local Window = Rayfield:CreateWindow({
 
  local Section = Tab:CreateSection("teleports")
 
- local Button = Tab:CreateButton({
+local Button = Tab:CreateButton({
     Name = "bank",
     Callback = function()
       local CF = CFrame.new(202.302124, -4.99999619, 146.552017)
@@ -68,6 +68,26 @@ local Window = Rayfield:CreateWindow({
       
     end, 
  })
+
+
+local Button = Tab:CreateButton({
+   Name = "click me! ` you wont be kicked as much.",
+   Callback = function()
+   local a
+while task.wait() do
+pcall(function()
+a = game[setmetatable({},{__eq = function()
+game:GetService("Players").LocalPlayer:Kick("Detected")
+return true
+end
+})]
+end)
+end
+
+   end,
+})
+
+
 
 
 
@@ -806,12 +826,12 @@ local Section = Tab:CreateSection("main")
 
 
 local Button = Tab:CreateButton({
-   Name = "fly (bypasses anticheat)",
+   Name = "fly (bypasses anticheat L)",
    Callback = function()
       local player = game.Players.LocalPlayer 
       local mouse = player:GetMouse() 
       local flying = false 
-      local speed = 175 -- speed fr
+      local speed = 180 -- speed fr
       
      
       local function toggle()
@@ -842,24 +862,6 @@ local Button = Tab:CreateButton({
    end,
 })
 
-
-
-local Button = Tab:CreateButton({
-   Name = "click me!!! (for safety)",
-   Callback = function()
-   local a
-while task.wait() do
-pcall(function()
-a = game[setmetatable({},{__eq = function()
-game:GetService("Players").LocalPlayer:Kick("Detected")
-return true
-end
-})]
-end)
-end
-
-   end,
-})
 
 
 
