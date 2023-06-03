@@ -1383,7 +1383,8 @@ local Section = Tab:CreateSection("guis")
 local Button = Tab:CreateButton({
     Name = "swimhub gui (scripthub)",
     Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/7TLpxY2P"))() 
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/SWIMHUBISWIMMING/-/main/beta"))()
+
 
     end,
  })
